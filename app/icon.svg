@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background Circle -->
+  <rect x="0" y="0" width="32" height="32" rx="8" fill="#70c5ce"/>
+  
+  <!-- Bird Body Outline -->
+  <rect x="7" y="10" width="18" height="13" fill="#2b2414" />
+  <rect x="11" y="7" width="13" height="3" fill="#2b2414" />
+  <rect x="23" y="10" width="5" height="10" fill="#2b2414" />
+  <rect x="11" y="23" width="12" height="2" fill="#2b2414" />
+
+  <!-- Yellow Body -->
+  <rect x="9" y="10" width="14" height="11" fill="#f2c12b" />
+  <rect x="12" y="9" width="10" height="2" fill="#ffe55c" />
+  <rect x="10" y="18" width="12" height="3" fill="#d99a1d" />
+
+  <!-- Eye -->
+  <rect x="20" y="8" width="3" height="5" fill="#2b2414" />
+  <rect x="17" y="9" width="5" height="4" fill="#ffffff" />
+  <rect x="20" y="10" width="2" height="3" fill="#171717" />
+
+  <!-- Beak -->
+  <rect x="23" y="14" width="7" height="6" fill="#2b2414" />
+  <rect x="24" y="15" width="5" height="2" fill="#f35a32" />
+  <rect x="24" y="17" width="4" height="2" fill="#dd351f" />
+
+  <!-- Wing -->
+  <rect x="8" y="12" width="8" height="6" fill="#2b2414" />
+  <rect x="9" y="13" width="6" height="4" fill="#f8dc3f" />
+  <rect x="10" y="13" width="4" height="2" fill="#fff17a" />
+</svg>
