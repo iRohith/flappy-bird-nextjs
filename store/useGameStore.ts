@@ -177,10 +177,11 @@ export const useGameStore = create<GameState>((set, get) => {
       const { mode, score } = get();
       if (mode === "gameover") return;
 
-      const nextBest = score;
+      // Keep the existing record when this round did not beat it.
+      const nextBest = Math.max(get().best, score);
       if (typeof window !== "undefined") {
         try {
-          localStorage.setItem(BEST_SCORE_KEY, String(score));
+          localStorage.setItem(BEST_SCORE_KEY, String(nextBest));
         } catch {}
       }
 
